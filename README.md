@@ -3,26 +3,22 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install .
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all the libraries and packages used in the code.
 
 ```bash
-pip install foobar
+pip install -r requirements.txt
 ```
 
-## Usage
+## How to Run
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+cd into the directory where the repository was downloaded or cloned. Then run the following commands to display both graphs.
+```bash
+python fhirSubmission.py
+python fhirSubmissionTwo.py
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+## Citations
+In the code, I made use of Ethan Wood's [fhir-parser](https://github.com/greenfrogs/FHIR-Parser) to make it easier for me to extract and parse data from the tables given.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
