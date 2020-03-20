@@ -15,7 +15,6 @@ data["UKNever Marriedmale"] = 0
 data["USNever Marriedmale"] = 0
 data["USNever Marriedfemale"] = 0
 for patient in patients:
-    print(patient.communications.languages)
     country = patient.addresses[0].country
     maritalStatus = patient.marital_status
     gender = patient.gender
