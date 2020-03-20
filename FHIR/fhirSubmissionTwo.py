@@ -31,7 +31,6 @@ for patient in patients:
     language = language[2:length]
     if language == "French (France)":
         language = "French"
-    print(language)
     language = languageConversion[language]
     if language not in languages:
         languages.append(language)
@@ -49,7 +48,6 @@ raw_data["femaleBars"] = []
 raw_data["maleBars"] = []
 
 for x in range(len(languages)):
-    print(languages[x])
     r.append(x)
     raw_data["femaleBars"].append(femaleData[languages[x]])
     raw_data["maleBars"].append(maleData[languages[x]])
@@ -69,7 +67,6 @@ barWidth = 0.85
 plt.bar(r, darkBlueBars, color='#4095F6', edgecolor='white', width=barWidth, label="Male")
 # Create blue Bars
 plt.bar(r, pinkBars, bottom=darkBlueBars, color='#F7C1FC', edgecolor='white', width=barWidth, label="Female")
-plt.label
 # Custom x axis
 plt.xticks(r, languages)
 plt.xlabel("Languages (ISO 639-1 Language Codes)")
