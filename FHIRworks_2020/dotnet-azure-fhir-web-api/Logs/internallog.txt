@@ -1,0 +1,1041 @@
+2020-03-21 17:45:36.0973 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-03-21 17:45:36.2510 Debug Found assembly location directory: 'C:\Users\User\.nuget\packages\nlog\4.6.7\lib\netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-03-21 17:45:36.2587 Debug Search for auto loading files in location: C:\Users\User\.nuget\packages\nlog\4.6.7\lib\netstandard2.0
+2020-03-21 17:45:36.2741 Debug Found assembly location directory: 'C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\bin\Debug\netcoreapp2.1' (donet-azure-fhir-web-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-03-21 17:45:36.2741 Debug Search for auto loading files in location: C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\bin\Debug\netcoreapp2.1
+2020-03-21 17:45:36.2741 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\bin\Debug\netcoreapp2.1
+2020-03-21 17:45:36.2741 Debug Search for auto loading files in location: C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\bin\Debug\netcoreapp2.1
+2020-03-21 17:45:36.2741 Debug Start auto loading, location: C:\Users\User\.nuget\packages\nlog\4.6.7\lib\netstandard2.0
+2020-03-21 17:45:36.2942 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-03-21 17:45:36.2942 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-03-21 17:45:36.2942 Debug Auto loading done
+2020-03-21 17:45:36.2942 Info Message Template Auto Format enabled
+2020-03-21 17:45:36.3613 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.3692 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-21 17:45:36.3866 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-03-21 17:45:36.4109 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-03-21 17:45:36.4109 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4109 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-21 17:45:36.4180 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4180 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-21 17:45:36.4180 Trace  Scanning Property Culture '' System.Globalization
+2020-03-21 17:45:36.4338 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-21 17:45:36.4338 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-21 17:45:36.4338 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.4338 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-21 17:45:36.4338 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4338 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-03-21 17:45:36.4338 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4470 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-21 17:45:36.4714 Debug Setting 'FileTarget.name' to 'logfile'
+2020-03-21 17:45:36.4714 Debug Setting 'FileTarget.fileName' to '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-21 17:45:36.4714 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4714 Trace Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-21 17:45:36.4797 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4797 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-21 17:45:36.4797 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-03-21 17:45:36.4797 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4797 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-21 17:45:36.4797 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-03-21 17:45:36.4797 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-03-21 17:45:36.4939 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4939 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-21 17:45:36.4939 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.4939 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-21 17:45:36.4939 Trace  Scanning Property Culture '' System.Globalization
+2020-03-21 17:45:36.4939 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-21 17:45:36.4939 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-21 17:45:36.4939 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.4939 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-21 17:45:36.4939 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-03-21 17:45:36.5099 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-21 17:45:36.5099 Info Adding target FileTarget(Name=logfile)
+2020-03-21 17:45:36.5099 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-03-21 17:45:36.5099 Trace ParseRulesElement
+2020-03-21 17:45:36.5599 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-03-21 17:45:36.5739 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-03-21 17:45:36.6014 Debug Watching path 'C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api' filter 'nlog.config' for changes.
+2020-03-21 17:45:36.6048 Debug --- NLog configuration dump ---
+2020-03-21 17:45:36.6048 Debug Targets:
+2020-03-21 17:45:36.6048 Debug File Target[logfile]
+2020-03-21 17:45:36.6048 Debug Rules:
+2020-03-21 17:45:36.6048 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-03-21 17:45:36.6048 Debug --- End of NLog configuration dump ---
+2020-03-21 17:45:36.6247 Trace FindReachableObject<System.Object>:
+2020-03-21 17:45:36.6247 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-03-21 17:45:36.6247 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-03-21 17:45:36.6247 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-03-21 17:45:36.6247 Trace   Scanning Property FileName ''${currentdir}\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-03-21 17:45:36.6338 Trace   Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-21 17:45:36.6338 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.6338 Trace    Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-21 17:45:36.6338 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.6338 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-21 17:45:36.6338 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.6338 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-03-21 17:45:36.6338 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-21 17:45:36.6338 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.6338 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-21 17:45:36.6338 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.6338 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-21 17:45:36.6490 Trace     Scanning Property Culture '' System.Globalization
+2020-03-21 17:45:36.6490 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-21 17:45:36.6490 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-21 17:45:36.6490 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.6490 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-21 17:45:36.6490 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.6490 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-21 17:45:36.6490 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-03-21 17:45:36.6490 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-03-21 17:45:36.6490 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-03-21 17:45:36.6490 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-03-21 17:45:36.6490 Info Found 15 configuration items
+2020-03-21 17:45:36.6674 Trace Initializing Layout Renderer: ${message}
+2020-03-21 17:45:36.6674 Trace Initializing Layout Renderer: ${literal}
+2020-03-21 17:45:36.6674 Trace Initializing Layout Renderer: ${level}
+2020-03-21 17:45:36.6674 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-03-21 17:45:36.6674 Trace FindReachableObject<System.Object>:
+2020-03-21 17:45:36.6674 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-21 17:45:36.6674 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.6812 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-21 17:45:36.6812 Trace Initializing Layout Renderer: ${uppercase}
+2020-03-21 17:45:36.6812 Trace Initializing Layout Renderer: ${literal}
+2020-03-21 17:45:36.6812 Trace Initializing Layout Renderer: ${longdate}
+2020-03-21 17:45:36.6812 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-03-21 17:45:36.6812 Trace FindReachableObject<System.Object>:
+2020-03-21 17:45:36.6812 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-21 17:45:36.6957 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.6957 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-03-21 17:45:36.6957 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.6957 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-03-21 17:45:36.6957 Trace   Scanning Property Culture '' System.Globalization
+2020-03-21 17:45:36.6957 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-03-21 17:45:36.6957 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-03-21 17:45:36.6957 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.6957 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-03-21 17:45:36.6957 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.6957 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-03-21 17:45:36.6957 Trace Initializing Layout Renderer: ${literal}
+2020-03-21 17:45:36.7119 Trace Initializing Layout Renderer: ${shortdate}
+2020-03-21 17:45:36.7119 Trace Initializing Layout Renderer: ${literal}
+2020-03-21 17:45:36.7119 Trace Initializing Layout Renderer: ${currentdir}
+2020-03-21 17:45:36.7119 Trace Initializing '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-21 17:45:36.7119 Trace FindReachableObject<System.Object>:
+2020-03-21 17:45:36.7119 Trace Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-21 17:45:36.7119 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-03-21 17:45:36.7119 Trace  Scanning CurrentDirLayoutRenderer 'Layout Renderer: ${currentdir}'
+2020-03-21 17:45:36.7119 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.7119 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-03-21 17:45:36.7119 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-03-21 17:45:36.7119 Trace Initializing File Target[logfile]
+2020-03-21 17:45:36.7347 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-03-21 17:45:36.7347 Trace Scanning FileTarget 'File Target[logfile]'
+2020-03-21 17:45:36.7347 Trace  Scanning Property FileName ''${currentdir}\Logs\${shortdate}_logfile.txt'' NLog.Layouts
+2020-03-21 17:45:36.7347 Trace  Scanning SimpleLayout ''${currentdir}\Logs\${shortdate}_logfile.txt''
+2020-03-21 17:45:36.7347 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-03-21 17:45:36.7347 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-03-21 17:45:36.7347 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-03-21 17:45:36.7347 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-03-21 17:45:36.7457 Trace File Target[logfile] has 2 layouts
+2020-03-21 17:45:36.7457 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-03-21 17:50:44.5959 Debug Targets for HDR_UK_Web_Application.Services.LoggerManager by level:
+2020-03-21 17:50:44.5959 Debug Trace =>
+2020-03-21 17:50:44.5959 Debug Debug => logfile
+2020-03-21 17:50:44.5959 Debug Info => logfile
+2020-03-21 17:50:44.5959 Debug Warn => logfile
+2020-03-21 17:50:44.5959 Debug Error => logfile
+2020-03-21 17:50:44.6023 Debug Fatal => logfile
+2020-03-21 17:50:44.6537 Debug FileTarget(Name=logfile): Process file 'C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt' on startup
+2020-03-21 17:50:44.6699 Debug Creating file appender: C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt
+2020-03-21 17:50:44.6699 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:44.6924 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:44.7032 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:44.7608 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.2024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.3124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.4091 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.5224 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.6496 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.7452 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.8424 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:46.9289 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.0177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.1136 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.2054 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.3094 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.4008 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.4848 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.5819 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.6856 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.7982 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.8953 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:47.9887 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.0775 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.1778 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.2704 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.3773 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.4689 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.5659 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.6565 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.7712 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.8713 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:48.9813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.1057 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.2065 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.2985 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.3894 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.4817 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.5699 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.6695 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.7610 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.8545 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:49.9630 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.0581 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.1796 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.2586 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.3453 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.4345 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.5250 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.6215 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.7409 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.8473 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:50.9419 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.0517 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.1462 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.2339 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.3315 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.4253 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.5401 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.6418 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.7345 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.8261 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:51.9182 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.0092 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.0951 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.1767 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.2672 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.3611 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.4545 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.5460 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.6478 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.7376 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.8310 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:52.9217 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.0204 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.1198 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.2101 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.2978 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.3921 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.4754 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.5623 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.6562 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.7449 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.8328 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:53.9235 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.0210 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.1146 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.2090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.3072 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.5411 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.6282 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.7119 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.7966 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.8862 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:54.9743 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.0568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.1399 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.2250 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.3042 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.3880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.4838 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.5832 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.6692 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.7499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.8370 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:55.9256 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.0199 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.1074 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.2760 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.3704 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.4558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.5390 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.6716 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.7658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.8582 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:56.9513 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.0414 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.1367 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.2349 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.3275 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.4187 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.5176 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.6183 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:50:57.7009 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8729 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8729 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8729 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8729 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8729 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8845 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8845 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8845 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8845 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8845 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8845 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8845 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9150 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9150 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9150 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9150 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9150 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9150 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9150 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9318 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9318 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9318 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9318 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9318 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9318 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9318 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9471 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9634 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9634 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9634 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9634 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9634 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9634 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9634 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9777 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9940 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9940 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9940 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9940 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9940 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9940 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:49.9940 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0082 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0242 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0403 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0403 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0403 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0403 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0403 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0403 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0403 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0549 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0718 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.0880 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1020 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1180 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1180 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1180 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1180 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1180 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1180 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:50.1180 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5494 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5494 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5494 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5558 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5728 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5728 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5728 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5728 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5728 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5728 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5868 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5868 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5868 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5868 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5868 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5868 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.5868 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6033 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6033 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6033 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6033 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6033 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6033 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6033 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6181 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6340 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6498 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6498 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6498 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6498 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6498 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6498 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6498 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6816 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6816 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6816 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6816 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6816 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6816 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6816 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.6963 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7124 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7283 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7444 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7444 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7444 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7444 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7444 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7444 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7444 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7599 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7599 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7599 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7599 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7599 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7599 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7599 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7750 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7750 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7750 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7750 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7750 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7750 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7750 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.7897 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.8064 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:53:52.8064 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:31.9948 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:31.9948 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:31.9948 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:31.9948 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:31.9948 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:31.9948 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:31.9948 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0090 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0254 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0254 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0254 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0254 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0254 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0254 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0254 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0408 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0408 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0408 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0408 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0408 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0408 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0408 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0557 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0724 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0724 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0724 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0724 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0724 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0724 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0724 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.0866 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1024 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1177 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1352 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1510 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1658 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1805 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.1971 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2121 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2292 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2292 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:32.2292 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.5844 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.5881 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.5881 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.5881 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.5881 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6026 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6026 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6026 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6026 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6182 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6182 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6182 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6182 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6182 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6368 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6368 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6368 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6368 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6489 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6489 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6489 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6489 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6489 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6673 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6673 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6673 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6673 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6673 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6836 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6836 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6836 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6836 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6974 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6974 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6974 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6974 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.6974 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7136 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7136 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7136 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7136 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7269 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7269 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7269 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7269 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7269 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7437 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7437 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7437 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7437 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7437 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7607 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7607 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7607 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7607 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7921 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7921 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.7921 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8068 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8068 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8207 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8207 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8207 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8387 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8387 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8387 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8387 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8555 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8555 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8555 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8679 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8679 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8679 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8679 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8679 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8872 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8872 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8872 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8872 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.8999 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9166 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9166 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9166 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9166 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9166 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9343 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9343 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9343 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9343 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9475 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9475 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9475 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9475 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9475 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9636 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9636 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9636 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9636 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9787 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9787 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9787 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9787 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9787 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9950 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9950 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9950 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:34.9950 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0087 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0087 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0087 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0087 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0087 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0252 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0252 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:35.0252 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5259 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5404 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5568 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5723 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.5879 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6038 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6193 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6351 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6491 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6649 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6808 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.6967 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7126 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7271 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7271 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7271 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7271 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7271 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:55:44.7271 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5684 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5707 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5707 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5707 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5707 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5707 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5707 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5707 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5869 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5869 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5869 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5869 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5869 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5869 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.5869 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6030 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6030 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6030 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6030 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6030 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6030 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6178 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6348 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6499 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6651 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6813 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.6957 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7122 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7284 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7284 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7284 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7284 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7284 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7284 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7284 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7426 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7590 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7756 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.7910 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8073 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8073 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8073 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8073 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8073 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8073 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8073 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8211 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-21 17:56:00.8211 Trace Opening C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt with allowFileSharedWriting=False
+2020-03-22 10:48:15.5705 Info AppDomain Shutting down. Logger closing...
+2020-03-22 10:48:15.5801 Debug Stopping file watching for path 'C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api' filter 'nlog.config'
+2020-03-22 10:48:15.5889 Trace Flushing all targets...
+2020-03-22 10:48:15.5889 Trace ForEachItemInParallel() 1 items
+2020-03-22 10:48:15.5889 Trace FileTarget(Name=logfile): FlushAsync
+2020-03-22 10:48:15.5889 Trace Continuation invoked: 
+2020-03-22 10:48:15.6024 Trace Parallel task completed. 0 items remaining
+2020-03-22 10:48:15.6024 Trace FileTarget(Name=logfile): FlushAsync Done
+2020-03-22 10:48:15.6024 Debug Targets not configured for logger: HDR_UK_Web_Application.Services.LoggerManager
+2020-03-22 10:48:15.6024 Debug Closing logging configuration...
+2020-03-22 10:48:15.6024 Trace Closing File Target[logfile]
+2020-03-22 10:48:15.6024 Debug Closing target 'File Target[logfile]'.
+2020-03-22 10:48:15.6024 Trace FileTarget(Name=logfile): FinalizeFile 'C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt, isArchiving: False'
+2020-03-22 10:48:15.6024 Debug FileAppender Closing Invalidate - C:\Users\User\Desktop\FHIR\FHIRworks_2020\dotnet-azure-fhir-web-api\Logs\2020-03-21_logfile.txt
+2020-03-22 10:48:15.6188 Debug Closed target 'File Target[logfile]'.
+2020-03-22 10:48:15.6188 Trace Closing '${currentdir}\Logs\${shortdate}_logfile.txt'
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${currentdir}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${literal}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${shortdate}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${literal}
+2020-03-22 10:48:15.6188 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${longdate}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${literal}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${uppercase}
+2020-03-22 10:48:15.6188 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${level}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${literal}
+2020-03-22 10:48:15.6188 Trace Closing Layout Renderer: ${message}
+2020-03-22 10:48:15.6188 Debug Finished closing logging configuration.
+2020-03-22 10:48:15.6188 Info Logger has been shut down.
